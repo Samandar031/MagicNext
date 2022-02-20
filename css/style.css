@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 20fr; }
+
+.basic_content {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  background-color: aqua; }
