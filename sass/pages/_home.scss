@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -14,13 +15,107 @@ html {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 20fr;
+  max-width: 136.6rem;
+  .menu_navbar {
+    background-color: #c69963;
+  }
 }
 
 .basic_content {
   display: grid;
   grid-template-columns: 7fr 3fr;
-  background-color: aqua;
+  grid-template-rows: 50rem;
+
+  float: left;
   .home_page {
-    background-color: blueviolet;
+    color: #56493c;
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(16, 29, 44, 0.9),
+        rgba(16, 29, 44, 0.9)
+      ),
+      url(../img/hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .home_img {
+      text-align: center;
+      margin: 5rem;
+      img {
+        width: 18rem;
+        height: 4rem;
+      }
+    }
+    .home_text {
+      font-size: 2rem;
+      font-weight: 520;
+      color: #c69963;
+      margin: 4rem 0 0 7rem;
+    }
+    .home_title {
+      margin: 1rem 7rem;
+      font-size: 4rem;
+      color: white;
+    }
+    .home_btn {
+      padding: 1rem;
+      border: none;
+      background-color: #c69963;
+      color: white;
+      margin: 1rem 7rem;
+    }
+    .home_seen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      color: white;
+      opacity: 0.4;
+      margin-top: 6rem;
+      hr {
+        width: 35rem;
+        margin: 1rem;
+      }
+    }
+    .home_brend {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      width: 85%;
+      margin: 0 auto;
+      img {
+        width: 15rem;
+        margin: 1rem;
+      }
+    }
+  }
+  .home_realt {
+    background-color: rgb(16, 29, 44);
+  }
+  .home_realt {
+    text-align: center;
+    .realt_title {
+      font-size: 2rem;
+      color: #c69963;
+      margin: 8rem 0 2rem 0;
+    }
+    .realt_box {
+      display: grid;
+      grid-template-columns: 2fr 8fr;
+      width: 70%;
+      margin: 3rem auto;
+      color: white;
+      img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+      }
+      .realt_box_name {
+        p:nth-child(1) {
+          font-size: 2rem;
+        }
+        p:nth-child(2) {
+          font-size: 2rem;
+        }
+      }
+    }
   }
 }
