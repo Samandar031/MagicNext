@@ -1,0 +1,23 @@
+{
+  "name": "magicnext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samandarqodirqulov/MagicNext.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samandarqodirqulov/MagicNext/issues"
+  },
+  "homepage": "https://github.com/samandarqodirqulov/MagicNext#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
