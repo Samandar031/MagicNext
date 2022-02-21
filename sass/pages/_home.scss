@@ -21,7 +21,7 @@ html {
   }
 }
 
-.basic_content {
+.home_pages {
   display: grid;
   grid-template-columns: 7fr 3fr;
   grid-template-rows: 50rem;
@@ -55,6 +55,7 @@ html {
       margin: 1rem 7rem;
       font-size: 4rem;
       color: white;
+      font-family: "Work Sans", sans-serif;
     }
     .home_btn {
       padding: 1rem;
@@ -116,6 +117,92 @@ html {
           font-size: 2rem;
         }
       }
+    }
+  }
+}
+
+// text section
+
+.text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  justify-content: space-around;
+
+  height: 60rem;
+  padding: 10rem;
+  .text_box {
+    p:nth-child(1) {
+      font-size: 2.5rem;
+      margin: 2rem 0;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 500;
+    }
+    p:nth-child(2) {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      opacity: 0.9;
+    }
+  }
+}
+
+// decision
+
+.decision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50rem;
+  .decision_img {
+    background-image: url(../img/back.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 45rem;
+      height: 35rem;
+    }
+  }
+  .decision_content {
+    padding: 5rem 5rem 5rem 10rem;
+    background-color: rgba(245, 243, 238, 0.4);
+    position: relative;
+    .story-2 {
+      position: absolute;
+      top: 28rem;
+      left: -30rem;
+
+      img {
+        width: 35rem;
+        height: 20rem;
+      }
+    }
+    .decision_text {
+      font-size: 1.5rem;
+      margin: 7rem 0 1rem 1rem;
+      letter-spacing: 0.3rem;
+      color: #c69963;
+      font-weight: 550;
+    }
+    .decision_title {
+      font-size: 3rem;
+      font-style: italic;
+      letter-spacing: 0.5rem;
+      margin: 1rem;
+      font-family: "Work Sans", sans-serif;
+    }
+    .decision_description {
+      font-size: 1.4rem;
+      line-height: 2.5rem;
+      opacity: 0.8;
+      margin: 2rem 1rem;
+    }
+    .decision_btn {
+      padding: 1rem;
+      border: none;
+      background-color: #c69963;
+      color: white;
+      margin: 1rem;
     }
   }
 }

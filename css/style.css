@@ -15,38 +15,39 @@ html {
   .container .menu_navbar {
     background-color: #c69963; }
 
-.basic_content {
+.home_pages {
   display: grid;
   grid-template-columns: 7fr 3fr;
   grid-template-rows: 50rem;
   float: left; }
-  .basic_content .home_page {
+  .home_pages .home_page {
     color: #56493c;
     background-image: linear-gradient(to bottom right, rgba(16, 29, 44, 0.9), rgba(16, 29, 44, 0.9)), url(../img/hero.jpeg);
     background-repeat: no-repeat;
     background-size: cover; }
-    .basic_content .home_page .home_img {
+    .home_pages .home_page .home_img {
       text-align: center;
       margin: 5rem; }
-      .basic_content .home_page .home_img img {
+      .home_pages .home_page .home_img img {
         width: 18rem;
         height: 4rem; }
-    .basic_content .home_page .home_text {
+    .home_pages .home_page .home_text {
       font-size: 2rem;
       font-weight: 520;
       color: #c69963;
       margin: 4rem 0 0 7rem; }
-    .basic_content .home_page .home_title {
+    .home_pages .home_page .home_title {
       margin: 1rem 7rem;
       font-size: 4rem;
-      color: white; }
-    .basic_content .home_page .home_btn {
+      color: white;
+      font-family: "Work Sans", sans-serif; }
+    .home_pages .home_page .home_btn {
       padding: 1rem;
       border: none;
       background-color: #c69963;
       color: white;
       margin: 1rem 7rem; }
-    .basic_content .home_page .home_seen {
+    .home_pages .home_page .home_seen {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -54,36 +55,101 @@ html {
       color: white;
       opacity: 0.4;
       margin-top: 6rem; }
-      .basic_content .home_page .home_seen hr {
+      .home_pages .home_page .home_seen hr {
         width: 35rem;
         margin: 1rem; }
-    .basic_content .home_page .home_brend {
+    .home_pages .home_page .home_brend {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       width: 85%;
       margin: 0 auto; }
-      .basic_content .home_page .home_brend img {
+      .home_pages .home_page .home_brend img {
         width: 15rem;
         margin: 1rem; }
-  .basic_content .home_realt {
+  .home_pages .home_realt {
     background-color: #101d2c; }
-  .basic_content .home_realt {
+  .home_pages .home_realt {
     text-align: center; }
-    .basic_content .home_realt .realt_title {
+    .home_pages .home_realt .realt_title {
       font-size: 2rem;
       color: #c69963;
       margin: 8rem 0 2rem 0; }
-    .basic_content .home_realt .realt_box {
+    .home_pages .home_realt .realt_box {
       display: grid;
       grid-template-columns: 2fr 8fr;
       width: 70%;
       margin: 3rem auto;
       color: white; }
-      .basic_content .home_realt .realt_box img {
+      .home_pages .home_realt .realt_box img {
         width: 8rem;
         height: 8rem;
         border-radius: 50%; }
-      .basic_content .home_realt .realt_box .realt_box_name p:nth-child(1) {
+      .home_pages .home_realt .realt_box .realt_box_name p:nth-child(1) {
         font-size: 2rem; }
-      .basic_content .home_realt .realt_box .realt_box_name p:nth-child(2) {
+      .home_pages .home_realt .realt_box .realt_box_name p:nth-child(2) {
         font-size: 2rem; }
+
+.text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  justify-content: space-around;
+  height: 60rem;
+  padding: 10rem; }
+  .text .text_box p:nth-child(1) {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500; }
+  .text .text_box p:nth-child(2) {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    opacity: 0.9; }
+
+.decision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50rem; }
+  .decision .decision_img {
+    background-image: url(../img/back.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .decision .decision_img img {
+      width: 45rem;
+      height: 35rem; }
+  .decision .decision_content {
+    padding: 5rem 5rem 5rem 10rem;
+    background-color: rgba(245, 243, 238, 0.4);
+    position: relative; }
+    .decision .decision_content .story-2 {
+      position: absolute;
+      top: 28rem;
+      left: -30rem; }
+      .decision .decision_content .story-2 img {
+        width: 35rem;
+        height: 20rem; }
+    .decision .decision_content .decision_text {
+      font-size: 1.5rem;
+      margin: 7rem 0 1rem 1rem;
+      letter-spacing: 0.3rem;
+      color: #c69963;
+      font-weight: 550; }
+    .decision .decision_content .decision_title {
+      font-size: 3rem;
+      font-style: italic;
+      letter-spacing: 0.5rem;
+      margin: 1rem;
+      font-family: "Work Sans", sans-serif; }
+    .decision .decision_content .decision_description {
+      font-size: 1.4rem;
+      line-height: 2.5rem;
+      opacity: 0.8;
+      margin: 2rem 1rem; }
+    .decision .decision_content .decision_btn {
+      padding: 1rem;
+      border: none;
+      background-color: #c69963;
+      color: white;
+      margin: 1rem; }
