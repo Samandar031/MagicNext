@@ -324,7 +324,7 @@ html {
       .container .basic_content .home_pages {
         display: grid;
         grid-template-columns: 1fr;
-        height: 100rem;
+        height: 100vh;
         width: 100vw; }
         .container .basic_content .home_pages .home_page {
           width: 100vw;
@@ -336,13 +336,15 @@ html {
       .container .basic_content .text {
         display: grid;
         grid-template-columns: 1fr;
-        height: 100rem; }
+        height: 100rem;
+        margin: 2rem 1rem; }
       .container .basic_content .decision {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
         height: 100rem;
-        position: relative; }
+        position: relative;
+        margin: 1rem; }
         .container .basic_content .decision .story-2 {
           position: absolute;
           top: -30rem;
@@ -352,7 +354,8 @@ html {
         grid-template-columns: 1fr;
         margin-left: 25%;
         padding: 0;
-        width: 0; }
+        width: 0;
+        margin: 2rem 0; }
       .container .basic_content .footer .footer_nav {
         display: grid;
         grid-template-columns: 1fr 1fr;

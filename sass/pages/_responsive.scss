@@ -30,7 +30,7 @@
       .home_pages {
         display: grid;
         grid-template-columns: 1fr;
-        height: 100rem;
+        height: 100vh;
         width: 100vw;
         .home_page {
           width: 100vw;
@@ -51,6 +51,7 @@
         display: grid;
         grid-template-columns: 1fr;
         height: 100rem;
+        margin: 2rem 1rem;
       }
       .decision {
         display: grid;
@@ -58,6 +59,7 @@
         width: 100%;
         height: 100rem;
         position: relative;
+        margin: 1rem;
         .story-2 {
           position: absolute;
           top: -30rem;
@@ -70,6 +72,7 @@
         margin-left: 25%;
         padding: 0;
         width: 0;
+        margin: 2rem 0;
       }
       .footer {
         .footer_nav {
