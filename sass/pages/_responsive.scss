@@ -3,9 +3,16 @@
     font-size: 50%;
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
   .container {
     display: grid;
     grid-template-columns: 1fr;
+    max-width: 56.8rem;
+    margin: 0;
     .menu_navbar {
       position: relative;
       hr {
@@ -19,10 +26,16 @@
       }
     }
     .basic_content {
+      width: 100vw;
       .home_pages {
         display: grid;
         grid-template-columns: 1fr;
         height: 100rem;
+        width: 100vw;
+        .home_page {
+          width: 100vw;
+          height: 120rem;
+        }
       }
       .text {
         display: grid;
@@ -38,12 +51,15 @@
         .story-2 {
           position: absolute;
           top: -30rem;
-          left: 40rem;
+          left: 30rem;
         }
       }
       .category {
         display: grid;
         grid-template-columns: 1fr;
+        margin-left: 25%;
+        padding: 0;
+        width: 0;
       }
       .footer {
         .footer_nav {
