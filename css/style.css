@@ -329,6 +329,10 @@ html {
         .container .basic_content .home_pages .home_page {
           width: 100vw;
           height: 120rem; }
+          .container .basic_content .home_pages .home_page .home_seen hr {
+            width: 20rem; }
+          .container .basic_content .home_pages .home_page .home_brend img {
+            width: 10rem; }
       .container .basic_content .text {
         display: grid;
         grid-template-columns: 1fr;

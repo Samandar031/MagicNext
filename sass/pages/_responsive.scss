@@ -35,6 +35,16 @@
         .home_page {
           width: 100vw;
           height: 120rem;
+          .home_seen {
+            hr {
+              width: 20rem;
+            }
+          }
+          .home_brend {
+            img {
+              width: 10rem;
+            }
+          }
         }
       }
       .text {
