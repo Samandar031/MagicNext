@@ -337,7 +337,7 @@ html {
         display: grid;
         grid-template-columns: 1fr;
         height: 100rem;
-        margin: 2rem 1rem; }
+        padding: 3rem 1rem; }
       .container .basic_content .decision {
         display: grid;
         grid-template-columns: 1fr;
@@ -354,8 +354,7 @@ html {
         grid-template-columns: 1fr;
         margin-left: 25%;
         padding: 0;
-        width: 0;
-        margin: 2rem 0; }
+        width: 0; }
       .container .basic_content .footer .footer_nav {
         display: grid;
         grid-template-columns: 1fr 1fr;

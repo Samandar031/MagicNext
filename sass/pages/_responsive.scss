@@ -51,7 +51,7 @@
         display: grid;
         grid-template-columns: 1fr;
         height: 100rem;
-        margin: 2rem 1rem;
+        padding: 3rem 1rem;
       }
       .decision {
         display: grid;
@@ -72,7 +72,6 @@
         margin-left: 25%;
         padding: 0;
         width: 0;
-        margin: 2rem 0;
       }
       .footer {
         .footer_nav {
